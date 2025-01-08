@@ -38,6 +38,6 @@ $(document).ready(function () {
         //eel.playAssistandSound()
       $("#Oval").attr("hidden", true);
       $("#SiriWave").attr("hidden", false)
-        
+        eel.allCommands()()
     });
 });
