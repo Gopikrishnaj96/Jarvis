@@ -25,6 +25,7 @@ $(document).ready(function () {
     $('.siri-message').textillate({
         loop: true,
         sync:true,
+        minDisplayTime: 3000,
         in:{
             effect: "fadeInUp",
             sync:true
