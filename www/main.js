@@ -23,9 +23,9 @@ $(document).ready(function () {
     });
     //siri msg animation
     $('.siri-message').textillate({
-        loop: true,
+        loop: false,
         sync:true,
-        minDisplayTime: 3000,
+        minDisplayTime: 1000,
         in:{
             effect: "fadeInUp",
             sync:true
